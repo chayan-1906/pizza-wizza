@@ -1,6 +1,12 @@
+'use client';
+
+import CarouselComponent from "@/components/home/CarouselComponent";
+
 function Home() {
     return (
-        <div>Hello World</div>
+        <div>
+            <CarouselComponent/>
+        </div>
     );
 }
 
