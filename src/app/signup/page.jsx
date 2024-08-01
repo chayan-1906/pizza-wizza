@@ -73,13 +73,13 @@ function SignUpPage() {
                     <div className={'flex gap-4 justify-end items-center'}>
                         {/** new user */}
                         <Link href={loginPath}>
-                            <button className={`self-end border font-bold dark:border-gray-400 border-gray-900 rounded py-2 px-6 hover:${gradient} hover:text-gray-100`}>
+                            <button className={`self-end border text-gray-900 dark:text-gray-100 font-bold dark:border-gray-400 border-gray-900 rounded py-2 px-6 hover:${gradient} hover:text-gray-100`}>
                                 Already a User?
                             </button>
                         </Link>
 
-                        {/** login */}
-                        <button type={'submit'} className={`border font-bold dark:border-gray-400 border-gray-900 rounded py-2 px-6 hover:${gradient} hover:text-gray-100`}>
+                        {/** signup */}
+                        <button type={'submit'} className={`border text-gray-900 dark:text-gray-100 font-bold dark:border-gray-400 border-gray-900 rounded py-2 px-6 hover:${gradient} hover:text-gray-100`}>
                             Signup
                         </button>
                     </div>
